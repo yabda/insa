@@ -4,7 +4,7 @@
  */
 class Poneys
 {
-    private $_count = $GLOBALS["INIT_PONEYS_NUMBER"];
+    private $_count = INIT_PONEYS_NUMBER;
 
     /**
      * Retourne le nombre de poneys
@@ -38,7 +38,7 @@ class Poneys
 
     public function placesLeft()
     {
-        return ($this->_count<=$GLOBALs["SIZE_FIELD"]?true:false);
+        return ($this->_count<=SIZE_FIELD?true:false);
     }
 
 
