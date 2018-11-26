@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="7" assertions="0" errors="7" failures="0" skipped="0" time="0.005646">
+    <testsuite name="poneys" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\src\Poneys.php" tests="6" assertions="0" errors="6" failures="0" skipped="0" time="0.003619">
+      <testsuite name="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" tests="6" assertions="0" errors="6" failures="0" skipped="0" time="0.003619">
+        <testsuite name="PoneysTest::testRemovePoneyFromField" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.003452">
+          <testcase name="testRemovePoneyFromField with data set #0" class="PoneysTest" classname="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" line="29" assertions="0" time="0.003402">
+            <error type="PHPUnit\Framework\Error\Warning">PoneysTest::testRemovePoneyFromField with data set #0 (1, 7)
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php:16
+</error>
+          </testcase>
+          <testcase name="testRemovePoneyFromField with data set #1" class="PoneysTest" classname="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" line="29" assertions="0" time="0.000050">
+            <error type="PHPUnit\Framework\Error\Warning">PoneysTest::testRemovePoneyFromField with data set #1 (5, 3)
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php:16
+</error>
+          </testcase>
+        </testsuite>
+        <testcase name="testRemovePoneyFromFieldNegativeExeption" class="PoneysTest" classname="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" line="41" assertions="0" time="0.000037">
+          <error type="PHPUnit\Framework\Error\Warning">PoneysTest::testRemovePoneyFromFieldNegativeExeption
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php:16
+</error>
+        </testcase>
+        <testcase name="testAddPoneyInField" class="PoneysTest" classname="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" line="49" assertions="0" time="0.000034">
+          <error type="PHPUnit\Framework\Error\Warning">PoneysTest::testAddPoneyInField
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php:16
+</error>
+        </testcase>
+        <testcase name="testPlaceLeftFalse" class="PoneysTest" classname="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" line="59" assertions="0" time="0.000034">
+          <error type="PHPUnit\Framework\Error\Warning">PoneysTest::testPlaceLeftFalse
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php:16
+</error>
+        </testcase>
+        <testcase name="testPlaceLeftTrue" class="PoneysTest" classname="PoneysTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php" line="67" assertions="0" time="0.000062">
+          <error type="PHPUnit\Framework\Error\Warning">PoneysTest::testPlaceLeftTrue
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\PoneysTest.php:16
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+    <testsuite name="dumb" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.002027">
+      <testsuite name="DumbTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\DumbTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="0.002027">
+        <testcase name="testGetName" class="DumbTest" classname="DumbTest" file="C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\DumbTest.php" line="11" assertions="0" time="0.002027">
+          <error type="PHPUnit\Framework\Error\Warning">DumbTest::testGetName
+Use of undefined constant INIT_PONEYS_NUMBER - assumed 'INIT_PONEYS_NUMBER' (this will throw an Error in a future version of PHP)
+
+C:\Users\asl\Documents\QualiteLogiciel\insa\poneys\tests\DumbTest.php:13
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

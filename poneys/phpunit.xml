@@ -1,0 +1,18 @@
+<phpunit
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <php>
+      <const name="SIZE_FIELD" value="15"/>
+      <const name="INIT_PONEYS_NUMBER" value="8"/>
+   </php>
+   <testsuites>
+     <testsuite name="poneys">
+       <file>tests/PoneysTest.php</file>
+     </testsuite>   
+     <testsuite name="dumb">
+       <file>tests/DumbTest.php</file>
+     </testsuite>
+   </testsuites>
+   <logging>
+      <log type="junit" target="./logfile.xml"/>
+   </logging>
+</phpunit>

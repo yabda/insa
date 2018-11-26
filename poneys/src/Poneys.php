@@ -4,7 +4,7 @@
  */
 class Poneys
 {
-    private $_count = 8;
+    private $_count = $GLOBALS["INIT_PONEYS_NUMBER"];
 
     /**
      * Retourne le nombre de poneys
@@ -16,6 +16,11 @@ class Poneys
         return $this->_count;
     }
 
+    public function setCount($number)
+    {
+        $this->_count = $number;
+    }
+
     /**
      * Retire un poney du champ
      *
@@ -25,7 +30,29 @@ class Poneys
      */
     public function removePoneyFromField(int $number): void
     {
+        if (($this->_count-$number) < 0){
+            throw new Exception("Negative poney count");
+        }
         $this->_count -= $number;
+    }
+
+    public function placesLeft()
+    {
+        return ($this->_count<=$GLOBALs["SIZE_FIELD"]?true:false);
+    }
+
+
+    /**
+    *
+    * Ajoute u poney dans un champ
+    *
+    * @param int $number nombre de poney a ajouter
+    *
+    * @return void
+    */
+    public function addPoneyInField(int $number): void
+    {
+        $this->_count += $number;
     }
 
     /**
